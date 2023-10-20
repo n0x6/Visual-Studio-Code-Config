@@ -1,5 +1,5 @@
 # My-Vscode-Config 💻
-### Personalized VS Code Configuration for Backend Development 🚀
+### Personalized VS Code Configuration 🚀
 
 Hello! 👋 Welcome to my VS Code configuration repository. Over the years, I've been inspired by various settings from many talented developers. Rather than just borrowing their configurations, I decided to curate my own to match my specific needs and preferences.
 
