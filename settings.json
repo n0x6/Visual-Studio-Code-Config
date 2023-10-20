@@ -1,0 +1,154 @@
+{
+    // -- Mi Configuracion de VSCODE --
+
+    // ---------- Configuraciones generales ----------
+
+    // Font settings
+    "editor.fontSize": 14,
+    "editor.fontFamily": "FiraCode Nerd Font",
+
+    // Word wrapping settings
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
+
+    // Formatting settings
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+
+    // More general settings
+    "editor.showUnused": true,
+    "editor.tabSize": 2,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+
+    // ---------- Terminal configuraciones ----------
+    "terminal.integrated.defaultProfile.osx": "zsh",
+
+    // ---------- Personalizacion ----------
+
+    // Cursor settings
+    "editor.cursorStyle": "underline",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+
+    // Theme settings
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Rosé Pine Moon",
+    "editor.tokenColorCustomizations":{
+        "textMateRules": [{
+            "scope": [
+                "comment",
+                "punctuation.definition.comment",
+            ],
+            "settings": {
+                "foreground": "#D4A6C8",
+                "fontStyle": "italic"
+            },
+        }],
+    },
+
+    // More theme settings
+    "editor.minimap.enabled": false,
+    "editor.guides.bracketPairs": true,
+    "breadcrumbs.enabled": false,
+    "workbench.sideBar.location": "right",
+
+    // ---------- Extensiones ----------
+
+    // Vim extension
+    "vim.cursorStylePerMode.normal": "underline",
+    "vim.cursorStylePerMode.replace": "underline",
+    "vim.cursorStylePerMode.visual": "underline",
+    "vim.cursorStylePerMode.insert": "underline",
+    "vim.cursorStylePerMode.visualblock": "underline",
+    "vim.cursorStylePerMode.visualline": "underline",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+
+    // Tabnine extension
+    "tabnine.experimentalAutoImports": true,
+
+    // Prettier extension
+    "prettier.tabWidth": 2,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+
+    // Live Server extension
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.CustomBrowser": "firefox",
+    "liveServer.settings.wait": 100,
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    // Color-Highlight extension
+    "color-highlight.markerType": "background",
+
+
+    // ---------- Files ----------
+    "files.exclude": {
+        "*/**/node_modules/": true,
+        "wp-includes/": true,
+        "wp-admin/": true,
+        "wp-*.*": true,
+        "wp-config.*": false,
+        "xmlrpc.php": true,
+        ".vscode/": true,
+        "*/**/cache/": true,
+        "*/**/uploads/": true,
+        "*/**/infinitewp/": true,
+        "*/**/.github/": true,
+        "*/**/build/": true
+    },
+    "search.exclude": {
+     "build/": true,
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+
+    // ---------- Lenguajes configuration ----------
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+         "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+
+    "[html]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true,
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+
+    "[css]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true,
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+
+    "[javascript]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true,
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+}
