@@ -1,11 +1,12 @@
 {
-    // -- Mi Configuracion de VSCODE --
+    // --- Mi Configuracion de VSCODE --- 
 
     // ---------- Configuraciones generales ----------
 
     // Font settings
     "editor.fontSize": 14,
     "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontLigatures": true,
 
     // Word wrapping settings
     "editor.wordWrap": "on",
@@ -16,11 +17,17 @@
     "editor.formatOnSave": true,
 
     // More general settings
+    "window.zoomLevel": 0.5,
     "editor.showUnused": true,
     "editor.tabSize": 2,
     "editor.scrollbar.vertical": "hidden",
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
+    "workbench.startupEditor": "none",
+    "explorer.confirmDelete": false,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "explorer.confirmDragAndDrop": false,
 
     // ---------- Terminal configuraciones ----------
     "terminal.integrated.defaultProfile.osx": "zsh",
@@ -54,18 +61,9 @@
     "editor.guides.bracketPairs": true,
     "breadcrumbs.enabled": false,
     "workbench.sideBar.location": "right",
+    "workbench.editor.revealIfOpen": true,
 
     // ---------- Extensiones ----------
-
-    // Vim extension
-    "vim.cursorStylePerMode.normal": "underline",
-    "vim.cursorStylePerMode.replace": "underline",
-    "vim.cursorStylePerMode.visual": "underline",
-    "vim.cursorStylePerMode.insert": "underline",
-    "vim.cursorStylePerMode.visualblock": "underline",
-    "vim.cursorStylePerMode.visualline": "underline",
-    "vim.easymotion": true,
-    "vim.incsearch": true,
 
     // Tabnine extension
     "tabnine.experimentalAutoImports": true,
