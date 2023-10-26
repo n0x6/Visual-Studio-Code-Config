@@ -1,4 +1,4 @@
-# My-Vscode-Config 💻
+# My-Vscode-Config [UPDATE] 💻
 ### Personalized Visual Studio Code Configuration 🚀
 
 Hello! 👋 Welcome to my Visual Studio Code configuration repository. Over the years, I've been inspired by various settings from many talented developers. Rather than just borrowing their configurations, I decided to curate my own to match my specific needs and preferences.
