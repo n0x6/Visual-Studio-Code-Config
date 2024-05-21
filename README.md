@@ -3,7 +3,7 @@
 
 Hello! 👋 Welcome to my Visual Studio Code configuration repository. Over the years, I've been inspired by various settings from many talented developers. Rather than just borrowing their configurations, I decided to curate my own to match my specific needs and preferences.
 
-**Target Audience:** 🎯 This configuration is tailored for junior developers who have a penchant for backend development, yet relish working on frontend projects with HTML and JavaScript.
+
 
 ### Extensions 🛠:
 Here's a list of extensions that I find indispensable for my workflow:
